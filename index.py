@@ -11,7 +11,6 @@ from app import app, server
 from apps import dashboard, dashboard2
 
 
-app = dash.Dash(__name__,suppress_callback_exceptions=True)
 
 
 app.layout = html.Div([
